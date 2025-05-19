@@ -1,0 +1,5 @@
+segun "caso" hacer{
+caso 1: imprimir("Caso 1");
+caso 2: imprimir("Caso 2");
+defecto: imprimir("Defecto");
+}finsegun
