@@ -23,7 +23,7 @@ Luego guardar (CTRL + S)
     3. Salida esperada
     4. Código traducido a JavaScript 
 
-
+El código se encarga de verificar la sintaxis y semántica del bloque 'segun caso'/switch
 
 Aclaraciones
 1. La salida que muestra, depende de la expresion inicial que se coloca. Si no hay nada es porque se ejecutó 'salir'
