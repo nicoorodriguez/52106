@@ -1,0 +1,16 @@
+<programa>::={<instruccion>}+
+<instruccion>::= <seleccion>
+<seleccion> ::= 'segun' <expresion> 'hacer' '{' {<caso>} [<caso_defecto>] '}' 'finsegun'
+<caso>::= 'caso' <constante> ':' {sentencia}
+<caso_defecto>::= 'defecto' ':' {<sentencia>}
+<sentencia>::={salida}+ | <terminar>
+<salida>::='imprimir' '(' <cadena> ')' ';'
+<terminar>::= 'salir' ';'
+<expresion>::= <constante>
+<constante>::= <cadena> | <numero>
+<cadena>::= '"' {<caracter>} '"'
+<numero>::= {<digito>}+
+<caracter>::=<letra>|<digito>|<simbolo>
+<letra>::='a'|'b'| ... |'z'|'A'|'B'| ... |'Z'
+<digito>::= '0'|'1'| ... |'9'
+<simbolo>::='.'|','|'!'|'?'|':'|';'
