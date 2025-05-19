@@ -1,0 +1,5 @@
+segun "materia" hacer{
+caso 1: imprimir("Hola profe");
+caso 2: imprimir("Chau profe");
+defecto: salir;
+}finsegun
