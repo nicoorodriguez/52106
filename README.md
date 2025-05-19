@@ -28,3 +28,5 @@ El código se encarga de verificar la sintaxis y semántica del bloque 'segun ca
 Aclaraciones
 1. La salida que muestra, depende de la expresion inicial que se coloca. Si no hay nada es porque se ejecutó 'salir'
 2. La tabla de lexemas y tokens se crea solamente si el input es correcto
+3. Al ejecutar el programa, sale una advertencia que no afecta el rendimiento del programa
+
