@@ -16,9 +16,10 @@ Luego guardar (CTRL + S)
 6. Clonar el repositorio a traves de una ventana de comandos: git clone https://github.com/nicoorodriguez/52106. Si el proyecto se clonó correctamente deberías ver el mensaje “done” en tu salida
 7. Abre VS Code para trabajar con el código del proyecto. Para esto ejecuta en la ventana de comandos abierta: code .
 8. Buscar cualquiera de los archivos input
-9. Para correr un archivo input, se debe abrir una terminal (del propio VSC), y poner el codigo: node index.js. Si se desea evaluar otra gramatica, no olvidar guardar los cambios (CTLR + S)
-10. Una vez el codigo se ejecute, en la terminal del VSC deben aparecer:
-    1. Si el input funciona correctamente, en consola se debe mostrar el mensaje "¡Analisis exitoso!", de caso             contrario se muestra en qué linea hay error, y de qué tipo
+9. Ejecutar el siguiente codigo: cd C:\Users\Usuario\52106\test3
+10. Para correr un archivo input, se debe abrir una terminal (del propio VSC), y poner el codigo: node index.js. Si se desea evaluar otra gramatica, no olvidar guardar los cambios (CTLR + S)
+11. Una vez el codigo se ejecute, en la terminal del VSC deben aparecer:
+    1. Si el input funciona correctamente, en consola se debe mostrar el mensaje "¡Analisis exitoso!", de caso contrario se muestra en qué linea hay error, y de qué tipo
     2. Tabla de tokens y lexemas
     3. Salida esperada
     4. Código traducido a JavaScript 
