@@ -1,0 +1,5 @@
+segun "materia" hacer {
+    caso "SSL": imprimir("Aprobado");
+    caso "Arquitectura": imprimir("Regular");
+    defecto: imprimir("No se conoce materia");
+} 
