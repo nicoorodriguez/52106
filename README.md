@@ -1,3 +1,5 @@
+ANALIZADOR NICOLAS RODRIGUEZ, LEGAJO:52106
+
 Para poder hacer uso del Analizador, se deben seguir estos pasos:
 1. Descargar Node.js
 2. Descargar VS Code
