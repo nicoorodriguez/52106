@@ -32,4 +32,5 @@ Aclaraciones
 1. La salida que muestra, depende de la expresion inicial que se coloca. Si no hay nada es porque se ejecutó 'salir'
 2. La tabla de lexemas y tokens se crea solamente si el input es correcto
 3. Al ejecutar el programa, sale una advertencia que no afecta el rendimiento del programa
+4. Para guardar cambios en el input, se debe usar CTRL + S, si se guardan cambios en otro archivo ingresar el siguiente comando: java -jar ubicacion\carpeta\antlr-4.13.0-complete.jar" -Dlanguage=JavaScript Analizador.g4 -o generated
 
